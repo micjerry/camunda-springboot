@@ -1,0 +1,8 @@
+logging:
+    file: /var/log/cmpayment/${spring.application.name}.log 
+    config: classpath:logback-spring.xml
+    level:
+        root: INFO
+        org.springframework: INFO
+        org.camunda: INFO
+        
